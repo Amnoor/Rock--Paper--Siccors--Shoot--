@@ -1,11 +1,11 @@
 # Rock, Paper, Siccors, Shoot!
 # A simple game of rock, paper, siccors against the computer.
-# First I will import the random module to allow the computer to make a random choice.
-import random
+# First I will import the choice function from the random module.
+from random import choice
 # Then I will create a list of choices for the computer to choose from.
 choices = ["rock", "paper", "siccors"]
 # Then I will use the random.choice() function to select a random choice from the list.
-program_choice = random.choice(choices)
+program_choice = choice(choices)
 # Then I will print a welcome message and ask the user for their choice.
 print("Let's play Rock, Paper, Siccors Shoot!")
 print("let's start!")
